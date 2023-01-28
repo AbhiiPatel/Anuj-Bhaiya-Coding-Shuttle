@@ -1,0 +1,32 @@
+<!--        topic=Responsive images in HTML        -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+
+    <!-- for dpr(device pixel ratio) -->
+    <!-- <img 
+    srcset="images/family1x.jpg 1x,images/family2x.jpg 2x,images/family3x.jpg 3x"
+    src="images/family3x.jpg" 
+    alt="This is a family photo" 
+    width="100%" > -->
+
+
+    <!-- for art direction problem -->
+    <img src="images/family3x.jpg"
+    srcset="images/family-desktop.jpg 1000w,
+    images/family-tablet.jpg 800w,
+    images/family-phone.jpg 500w"   
+    sizes="(max-width : 500px) 500px,
+    (max-width : 800px) 800px,
+    1000px"
+     alt="This is a family photo" width="100%">
+    
+</body>
+</html>
+
