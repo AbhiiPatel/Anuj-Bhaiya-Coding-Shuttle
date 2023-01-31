@@ -1,0 +1,45 @@
+<!--          Topic=inline,internal,external CSS  
+    1)if inline and internal css are both applied then first inline is countered.
+    2)if internal and external css are both applied then then overwritten css is countered that means which css are applied lastly in code that countered.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction of CSS</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    
+    <style>
+
+        body{
+            background-color: aqua;
+        }
+        h1{
+            color:blueviolet;
+            background-color: yellow;
+        }
+
+        p{
+            background-color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="cssicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+    <h1>This is Where The Dreams Come True</h1>
+    <p>Unlock the true potential of Blockchain with our cutting-edge Technology.</p>
+    <button>Get Started</button>
+
+    <p style="background-color: blue;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, recusandae?</p>
+    
+</body>
+</html>
