@@ -1,0 +1,32 @@
+*{
+    font-family:cursive;
+}
+
+body{
+    font-size: 20px;
+}
+
+#first , #second{
+    color: red;
+    
+}
+/* #second{
+    color: chartreuse;
+} */
+
+#first>p{
+    color: green;
+    
+}
+
+
+.violet{
+    color:violet ;
+    font-family: monospace;
+}
+
+.highlight{
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+}
