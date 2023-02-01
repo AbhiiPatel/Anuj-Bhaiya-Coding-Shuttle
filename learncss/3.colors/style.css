@@ -1,0 +1,16 @@
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #00F529;
+    background-color: #00b4d8;
+}
+h1{
+    color: black;
+}
+article{
+    
+    background-color: #000630;
+    margin: 40px;
+    padding: 40px;
+}
