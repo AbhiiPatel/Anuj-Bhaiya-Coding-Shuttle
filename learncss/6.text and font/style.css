@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+h1{
+    color: brown;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: aqua;
+
+
+    /* color: transparent; */
+    /* text-shadow: 4px 4px  red,6px 6px blue; */
+
+
+    /* text-shadow: 4px 4px 5px red,6px 6px 5px blue; */
+
+    text-align: center;
+    /* text-decoration: underline;
+    text-decoration-color: aqua; */
+
+    font-family: Inconsolata;
+}
+
+p{
+    text-align: justify;
+    text-indent: 80px;
+    /* letter-spacing: 0.1rem;  */
+    line-height: 1.4rem;
+
+    word-spacing: 0.5rem;
+    font-size: larger;
+    font-weight: bold;
+    font-family: sans-serif
+}
